@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  counting.h
 //  Toddler
 //
 //  Created by Dustrise on 3/25/13.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface counting : UIViewController
 
 @end

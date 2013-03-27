@@ -19,6 +19,40 @@
 		E575003017006E04004BAFF5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E575002E17006E04004BAFF5 /* MainStoryboard_iPhone.storyboard */; };
 		E575003317006E04004BAFF5 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E575003117006E04004BAFF5 /* MainStoryboard_iPad.storyboard */; };
 		E575003617006E04004BAFF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E575003517006E04004BAFF5 /* ViewController.m */; };
+		E575003E17008399004BAFF5 /* homeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E575003D17008399004BAFF5 /* homeViewController.m */; };
+		E5750041170083BD004BAFF5 /* alphabets.m in Sources */ = {isa = PBXBuildFile; fileRef = E5750040170083BC004BAFF5 /* alphabets.m */; };
+		E57500441700840F004BAFF5 /* counting.m in Sources */ = {isa = PBXBuildFile; fileRef = E57500431700840F004BAFF5 /* counting.m */; };
+		E57500471700843D004BAFF5 /* months.m in Sources */ = {isa = PBXBuildFile; fileRef = E57500461700843D004BAFF5 /* months.m */; };
+		E575004A17008456004BAFF5 /* colors.m in Sources */ = {isa = PBXBuildFile; fileRef = E575004917008456004BAFF5 /* colors.m */; };
+		E575004D17008473004BAFF5 /* animals.m in Sources */ = {isa = PBXBuildFile; fileRef = E575004C17008473004BAFF5 /* animals.m */; };
+		E5750050170084BC004BAFF5 /* fruits.m in Sources */ = {isa = PBXBuildFile; fileRef = E575004F170084BC004BAFF5 /* fruits.m */; };
+		E5F1F5771702E1E400F41ECB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5F1F5761702E1E400F41ECB /* AVFoundation.framework */; };
+		E5F1F5931702E30B00F41ECB /* Alphabetics_0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F5791702E30B00F41ECB /* Alphabetics_0.mp3 */; };
+		E5F1F5941702E30B00F41ECB /* Alphabetics_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F57A1702E30B00F41ECB /* Alphabetics_1.mp3 */; };
+		E5F1F5951702E30B00F41ECB /* Alphabetics_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F57B1702E30B00F41ECB /* Alphabetics_2.mp3 */; };
+		E5F1F5961702E30B00F41ECB /* Alphabetics_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F57C1702E30B00F41ECB /* Alphabetics_3.mp3 */; };
+		E5F1F5971702E30B00F41ECB /* Alphabetics_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F57D1702E30B00F41ECB /* Alphabetics_4.mp3 */; };
+		E5F1F5981702E30B00F41ECB /* Alphabetics_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F57E1702E30B00F41ECB /* Alphabetics_5.mp3 */; };
+		E5F1F5991702E30B00F41ECB /* Alphabetics_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F57F1702E30B00F41ECB /* Alphabetics_6.mp3 */; };
+		E5F1F59A1702E30B00F41ECB /* Alphabetics_7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F5801702E30B00F41ECB /* Alphabetics_7.mp3 */; };
+		E5F1F59B1702E30B00F41ECB /* Alphabetics_8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F5811702E30B00F41ECB /* Alphabetics_8.mp3 */; };
+		E5F1F59C1702E30B00F41ECB /* Alphabetics_9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F5821702E30B00F41ECB /* Alphabetics_9.mp3 */; };
+		E5F1F59D1702E30B00F41ECB /* Alphabetics_10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F5831702E30B00F41ECB /* Alphabetics_10.mp3 */; };
+		E5F1F59E1702E30B00F41ECB /* Alphabetics_11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F5841702E30B00F41ECB /* Alphabetics_11.mp3 */; };
+		E5F1F59F1702E30B00F41ECB /* Alphabetics_12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F5851702E30B00F41ECB /* Alphabetics_12.mp3 */; };
+		E5F1F5A01702E30B00F41ECB /* Alphabetics_13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F5861702E30B00F41ECB /* Alphabetics_13.mp3 */; };
+		E5F1F5A11702E30B00F41ECB /* Alphabetics_14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F5871702E30B00F41ECB /* Alphabetics_14.mp3 */; };
+		E5F1F5A21702E30B00F41ECB /* Alphabetics_15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F5881702E30B00F41ECB /* Alphabetics_15.mp3 */; };
+		E5F1F5A31702E30B00F41ECB /* Alphabetics_16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F5891702E30B00F41ECB /* Alphabetics_16.mp3 */; };
+		E5F1F5A41702E30B00F41ECB /* Alphabetics_17.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F58A1702E30B00F41ECB /* Alphabetics_17.mp3 */; };
+		E5F1F5A51702E30B00F41ECB /* Alphabetics_18.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F58B1702E30B00F41ECB /* Alphabetics_18.mp3 */; };
+		E5F1F5A61702E30B00F41ECB /* Alphabetics_19.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F58C1702E30B00F41ECB /* Alphabetics_19.mp3 */; };
+		E5F1F5A71702E30B00F41ECB /* Alphabetics_20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F58D1702E30B00F41ECB /* Alphabetics_20.mp3 */; };
+		E5F1F5A81702E30B00F41ECB /* Alphabetics_21.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F58E1702E30B00F41ECB /* Alphabetics_21.mp3 */; };
+		E5F1F5A91702E30B00F41ECB /* Alphabetics_22.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F58F1702E30B00F41ECB /* Alphabetics_22.mp3 */; };
+		E5F1F5AA1702E30B00F41ECB /* Alphabetics_23.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F5901702E30B00F41ECB /* Alphabetics_23.mp3 */; };
+		E5F1F5AB1702E30B00F41ECB /* Alphabetics_24.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F5911702E30B00F41ECB /* Alphabetics_24.mp3 */; };
+		E5F1F5AC1702E30B00F41ECB /* Alphabetics_25.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F5921702E30B00F41ECB /* Alphabetics_25.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +73,47 @@
 		E575003217006E04004BAFF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		E575003417006E04004BAFF5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E575003517006E04004BAFF5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E575003C17008399004BAFF5 /* homeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homeViewController.h; sourceTree = "<group>"; };
+		E575003D17008399004BAFF5 /* homeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeViewController.m; sourceTree = "<group>"; };
+		E575003F170083BC004BAFF5 /* alphabets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = alphabets.h; path = ../alphabets.h; sourceTree = "<group>"; };
+		E5750040170083BC004BAFF5 /* alphabets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = alphabets.m; path = ../alphabets.m; sourceTree = "<group>"; };
+		E57500421700840F004BAFF5 /* counting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = counting.h; sourceTree = "<group>"; };
+		E57500431700840F004BAFF5 /* counting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = counting.m; sourceTree = "<group>"; };
+		E57500451700843D004BAFF5 /* months.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = months.h; sourceTree = "<group>"; };
+		E57500461700843D004BAFF5 /* months.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = months.m; sourceTree = "<group>"; };
+		E575004817008456004BAFF5 /* colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colors.h; sourceTree = "<group>"; };
+		E575004917008456004BAFF5 /* colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = colors.m; sourceTree = "<group>"; };
+		E575004B17008473004BAFF5 /* animals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = animals.h; path = ../animals.h; sourceTree = "<group>"; };
+		E575004C17008473004BAFF5 /* animals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = animals.m; path = ../animals.m; sourceTree = "<group>"; };
+		E575004E170084BC004BAFF5 /* fruits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fruits.h; sourceTree = "<group>"; };
+		E575004F170084BC004BAFF5 /* fruits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fruits.m; sourceTree = "<group>"; };
+		E5F1F5761702E1E400F41ECB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E5F1F5791702E30B00F41ECB /* Alphabetics_0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_0.mp3; path = ../Alphabetics_0.mp3; sourceTree = "<group>"; };
+		E5F1F57A1702E30B00F41ECB /* Alphabetics_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_1.mp3; path = ../Alphabetics_1.mp3; sourceTree = "<group>"; };
+		E5F1F57B1702E30B00F41ECB /* Alphabetics_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_2.mp3; path = ../Alphabetics_2.mp3; sourceTree = "<group>"; };
+		E5F1F57C1702E30B00F41ECB /* Alphabetics_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_3.mp3; path = ../Alphabetics_3.mp3; sourceTree = "<group>"; };
+		E5F1F57D1702E30B00F41ECB /* Alphabetics_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_4.mp3; path = ../Alphabetics_4.mp3; sourceTree = "<group>"; };
+		E5F1F57E1702E30B00F41ECB /* Alphabetics_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_5.mp3; path = ../Alphabetics_5.mp3; sourceTree = "<group>"; };
+		E5F1F57F1702E30B00F41ECB /* Alphabetics_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_6.mp3; path = ../Alphabetics_6.mp3; sourceTree = "<group>"; };
+		E5F1F5801702E30B00F41ECB /* Alphabetics_7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_7.mp3; path = ../Alphabetics_7.mp3; sourceTree = "<group>"; };
+		E5F1F5811702E30B00F41ECB /* Alphabetics_8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_8.mp3; path = ../Alphabetics_8.mp3; sourceTree = "<group>"; };
+		E5F1F5821702E30B00F41ECB /* Alphabetics_9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_9.mp3; path = ../Alphabetics_9.mp3; sourceTree = "<group>"; };
+		E5F1F5831702E30B00F41ECB /* Alphabetics_10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_10.mp3; path = ../Alphabetics_10.mp3; sourceTree = "<group>"; };
+		E5F1F5841702E30B00F41ECB /* Alphabetics_11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_11.mp3; path = ../Alphabetics_11.mp3; sourceTree = "<group>"; };
+		E5F1F5851702E30B00F41ECB /* Alphabetics_12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_12.mp3; path = ../Alphabetics_12.mp3; sourceTree = "<group>"; };
+		E5F1F5861702E30B00F41ECB /* Alphabetics_13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_13.mp3; path = ../Alphabetics_13.mp3; sourceTree = "<group>"; };
+		E5F1F5871702E30B00F41ECB /* Alphabetics_14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_14.mp3; path = ../Alphabetics_14.mp3; sourceTree = "<group>"; };
+		E5F1F5881702E30B00F41ECB /* Alphabetics_15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_15.mp3; path = ../Alphabetics_15.mp3; sourceTree = "<group>"; };
+		E5F1F5891702E30B00F41ECB /* Alphabetics_16.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_16.mp3; path = ../Alphabetics_16.mp3; sourceTree = "<group>"; };
+		E5F1F58A1702E30B00F41ECB /* Alphabetics_17.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_17.mp3; path = ../Alphabetics_17.mp3; sourceTree = "<group>"; };
+		E5F1F58B1702E30B00F41ECB /* Alphabetics_18.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_18.mp3; path = ../Alphabetics_18.mp3; sourceTree = "<group>"; };
+		E5F1F58C1702E30B00F41ECB /* Alphabetics_19.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_19.mp3; path = ../Alphabetics_19.mp3; sourceTree = "<group>"; };
+		E5F1F58D1702E30B00F41ECB /* Alphabetics_20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_20.mp3; path = ../Alphabetics_20.mp3; sourceTree = "<group>"; };
+		E5F1F58E1702E30B00F41ECB /* Alphabetics_21.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_21.mp3; path = ../Alphabetics_21.mp3; sourceTree = "<group>"; };
+		E5F1F58F1702E30B00F41ECB /* Alphabetics_22.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_22.mp3; path = ../Alphabetics_22.mp3; sourceTree = "<group>"; };
+		E5F1F5901702E30B00F41ECB /* Alphabetics_23.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_23.mp3; path = ../Alphabetics_23.mp3; sourceTree = "<group>"; };
+		E5F1F5911702E30B00F41ECB /* Alphabetics_24.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_24.mp3; path = ../Alphabetics_24.mp3; sourceTree = "<group>"; };
+		E5F1F5921702E30B00F41ECB /* Alphabetics_25.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_25.mp3; path = ../Alphabetics_25.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5F1F5771702E1E400F41ECB /* AVFoundation.framework in Frameworks */,
 				E575001717006E04004BAFF5 /* UIKit.framework in Frameworks */,
 				E575001917006E04004BAFF5 /* Foundation.framework in Frameworks */,
 				E575001B17006E04004BAFF5 /* CoreGraphics.framework in Frameworks */,
@@ -58,6 +134,7 @@
 		E575000A17006E04004BAFF5 = {
 			isa = PBXGroup;
 			children = (
+				E5F1F5761702E1E400F41ECB /* AVFoundation.framework */,
 				E575001C17006E04004BAFF5 /* Toddler */,
 				E575001517006E04004BAFF5 /* Frameworks */,
 				E575001417006E04004BAFF5 /* Products */,
@@ -91,6 +168,20 @@
 				E575003117006E04004BAFF5 /* MainStoryboard_iPad.storyboard */,
 				E575003417006E04004BAFF5 /* ViewController.h */,
 				E575003517006E04004BAFF5 /* ViewController.m */,
+				E575003C17008399004BAFF5 /* homeViewController.h */,
+				E575003D17008399004BAFF5 /* homeViewController.m */,
+				E575003F170083BC004BAFF5 /* alphabets.h */,
+				E5750040170083BC004BAFF5 /* alphabets.m */,
+				E57500421700840F004BAFF5 /* counting.h */,
+				E57500431700840F004BAFF5 /* counting.m */,
+				E57500451700843D004BAFF5 /* months.h */,
+				E57500461700843D004BAFF5 /* months.m */,
+				E575004817008456004BAFF5 /* colors.h */,
+				E575004917008456004BAFF5 /* colors.m */,
+				E575004B17008473004BAFF5 /* animals.h */,
+				E575004C17008473004BAFF5 /* animals.m */,
+				E575004E170084BC004BAFF5 /* fruits.h */,
+				E575004F170084BC004BAFF5 /* fruits.m */,
 				E575001D17006E04004BAFF5 /* Supporting Files */,
 			);
 			path = Toddler;
@@ -99,6 +190,7 @@
 		E575001D17006E04004BAFF5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E5F1F5781702E2DE00F41ECB /* sounds */,
 				E575001E17006E04004BAFF5 /* Toddler-Info.plist */,
 				E575001F17006E04004BAFF5 /* InfoPlist.strings */,
 				E575002217006E04004BAFF5 /* main.m */,
@@ -108,6 +200,39 @@
 				E575002C17006E04004BAFF5 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5F1F5781702E2DE00F41ECB /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E5F1F5791702E30B00F41ECB /* Alphabetics_0.mp3 */,
+				E5F1F57A1702E30B00F41ECB /* Alphabetics_1.mp3 */,
+				E5F1F57B1702E30B00F41ECB /* Alphabetics_2.mp3 */,
+				E5F1F57C1702E30B00F41ECB /* Alphabetics_3.mp3 */,
+				E5F1F57D1702E30B00F41ECB /* Alphabetics_4.mp3 */,
+				E5F1F57E1702E30B00F41ECB /* Alphabetics_5.mp3 */,
+				E5F1F57F1702E30B00F41ECB /* Alphabetics_6.mp3 */,
+				E5F1F5801702E30B00F41ECB /* Alphabetics_7.mp3 */,
+				E5F1F5811702E30B00F41ECB /* Alphabetics_8.mp3 */,
+				E5F1F5821702E30B00F41ECB /* Alphabetics_9.mp3 */,
+				E5F1F5831702E30B00F41ECB /* Alphabetics_10.mp3 */,
+				E5F1F5841702E30B00F41ECB /* Alphabetics_11.mp3 */,
+				E5F1F5851702E30B00F41ECB /* Alphabetics_12.mp3 */,
+				E5F1F5861702E30B00F41ECB /* Alphabetics_13.mp3 */,
+				E5F1F5871702E30B00F41ECB /* Alphabetics_14.mp3 */,
+				E5F1F5881702E30B00F41ECB /* Alphabetics_15.mp3 */,
+				E5F1F5891702E30B00F41ECB /* Alphabetics_16.mp3 */,
+				E5F1F58A1702E30B00F41ECB /* Alphabetics_17.mp3 */,
+				E5F1F58B1702E30B00F41ECB /* Alphabetics_18.mp3 */,
+				E5F1F58C1702E30B00F41ECB /* Alphabetics_19.mp3 */,
+				E5F1F58D1702E30B00F41ECB /* Alphabetics_20.mp3 */,
+				E5F1F58E1702E30B00F41ECB /* Alphabetics_21.mp3 */,
+				E5F1F58F1702E30B00F41ECB /* Alphabetics_22.mp3 */,
+				E5F1F5901702E30B00F41ECB /* Alphabetics_23.mp3 */,
+				E5F1F5911702E30B00F41ECB /* Alphabetics_24.mp3 */,
+				E5F1F5921702E30B00F41ECB /* Alphabetics_25.mp3 */,
+			);
+			path = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +292,32 @@
 				E575002D17006E04004BAFF5 /* Default-568h@2x.png in Resources */,
 				E575003017006E04004BAFF5 /* MainStoryboard_iPhone.storyboard in Resources */,
 				E575003317006E04004BAFF5 /* MainStoryboard_iPad.storyboard in Resources */,
+				E5F1F5931702E30B00F41ECB /* Alphabetics_0.mp3 in Resources */,
+				E5F1F5941702E30B00F41ECB /* Alphabetics_1.mp3 in Resources */,
+				E5F1F5951702E30B00F41ECB /* Alphabetics_2.mp3 in Resources */,
+				E5F1F5961702E30B00F41ECB /* Alphabetics_3.mp3 in Resources */,
+				E5F1F5971702E30B00F41ECB /* Alphabetics_4.mp3 in Resources */,
+				E5F1F5981702E30B00F41ECB /* Alphabetics_5.mp3 in Resources */,
+				E5F1F5991702E30B00F41ECB /* Alphabetics_6.mp3 in Resources */,
+				E5F1F59A1702E30B00F41ECB /* Alphabetics_7.mp3 in Resources */,
+				E5F1F59B1702E30B00F41ECB /* Alphabetics_8.mp3 in Resources */,
+				E5F1F59C1702E30B00F41ECB /* Alphabetics_9.mp3 in Resources */,
+				E5F1F59D1702E30B00F41ECB /* Alphabetics_10.mp3 in Resources */,
+				E5F1F59E1702E30B00F41ECB /* Alphabetics_11.mp3 in Resources */,
+				E5F1F59F1702E30B00F41ECB /* Alphabetics_12.mp3 in Resources */,
+				E5F1F5A01702E30B00F41ECB /* Alphabetics_13.mp3 in Resources */,
+				E5F1F5A11702E30B00F41ECB /* Alphabetics_14.mp3 in Resources */,
+				E5F1F5A21702E30B00F41ECB /* Alphabetics_15.mp3 in Resources */,
+				E5F1F5A31702E30B00F41ECB /* Alphabetics_16.mp3 in Resources */,
+				E5F1F5A41702E30B00F41ECB /* Alphabetics_17.mp3 in Resources */,
+				E5F1F5A51702E30B00F41ECB /* Alphabetics_18.mp3 in Resources */,
+				E5F1F5A61702E30B00F41ECB /* Alphabetics_19.mp3 in Resources */,
+				E5F1F5A71702E30B00F41ECB /* Alphabetics_20.mp3 in Resources */,
+				E5F1F5A81702E30B00F41ECB /* Alphabetics_21.mp3 in Resources */,
+				E5F1F5A91702E30B00F41ECB /* Alphabetics_22.mp3 in Resources */,
+				E5F1F5AA1702E30B00F41ECB /* Alphabetics_23.mp3 in Resources */,
+				E5F1F5AB1702E30B00F41ECB /* Alphabetics_24.mp3 in Resources */,
+				E5F1F5AC1702E30B00F41ECB /* Alphabetics_25.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +331,13 @@
 				E575002317006E04004BAFF5 /* main.m in Sources */,
 				E575002717006E04004BAFF5 /* AppDelegate.m in Sources */,
 				E575003617006E04004BAFF5 /* ViewController.m in Sources */,
+				E575003E17008399004BAFF5 /* homeViewController.m in Sources */,
+				E5750041170083BD004BAFF5 /* alphabets.m in Sources */,
+				E57500441700840F004BAFF5 /* counting.m in Sources */,
+				E57500471700843D004BAFF5 /* months.m in Sources */,
+				E575004A17008456004BAFF5 /* colors.m in Sources */,
+				E575004D17008473004BAFF5 /* animals.m in Sources */,
+				E5750050170084BC004BAFF5 /* fruits.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +470,7 @@
 				E575003B17006E04004BAFF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
