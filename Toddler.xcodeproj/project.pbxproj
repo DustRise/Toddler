@@ -53,6 +53,7 @@
 		E5F1F5AA1702E30B00F41ECB /* Alphabetics_23.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F5901702E30B00F41ECB /* Alphabetics_23.mp3 */; };
 		E5F1F5AB1702E30B00F41ECB /* Alphabetics_24.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F5911702E30B00F41ECB /* Alphabetics_24.mp3 */; };
 		E5F1F5AC1702E30B00F41ECB /* Alphabetics_25.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F5921702E30B00F41ECB /* Alphabetics_25.mp3 */; };
+		E5F1F5AE1702FA6A00F41ECB /* 00.png in Resources */ = {isa = PBXBuildFile; fileRef = E5F1F5AD1702FA6A00F41ECB /* 00.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -114,6 +115,7 @@
 		E5F1F5901702E30B00F41ECB /* Alphabetics_23.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_23.mp3; path = ../Alphabetics_23.mp3; sourceTree = "<group>"; };
 		E5F1F5911702E30B00F41ECB /* Alphabetics_24.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_24.mp3; path = ../Alphabetics_24.mp3; sourceTree = "<group>"; };
 		E5F1F5921702E30B00F41ECB /* Alphabetics_25.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alphabetics_25.mp3; path = ../Alphabetics_25.mp3; sourceTree = "<group>"; };
+		E5F1F5AD1702FA6A00F41ECB /* 00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 00.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 		E575001D17006E04004BAFF5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E5F1F5AD1702FA6A00F41ECB /* 00.png */,
 				E5F1F5781702E2DE00F41ECB /* sounds */,
 				E575001E17006E04004BAFF5 /* Toddler-Info.plist */,
 				E575001F17006E04004BAFF5 /* InfoPlist.strings */,
@@ -318,6 +321,7 @@
 				E5F1F5AA1702E30B00F41ECB /* Alphabetics_23.mp3 in Resources */,
 				E5F1F5AB1702E30B00F41ECB /* Alphabetics_24.mp3 in Resources */,
 				E5F1F5AC1702E30B00F41ECB /* Alphabetics_25.mp3 in Resources */,
+				E5F1F5AE1702FA6A00F41ECB /* 00.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

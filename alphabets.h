@@ -14,16 +14,18 @@
     int letter;
     IBOutlet UIButton *let1,*let2,*let3,*let4,*let5,*let6,*let7,*let8,*let9,*let10,*let11,*let12,*let13,*let14,*let15,*let16,*let17,*let18,*let19,*let20,*let21,*let22,*let23,*let24,*let25,*let26,*words,*animation;
     IBOutlet UIBarButtonItem *ltr;
+    IBOutlet UIButton *alphtoword;
+    IBOutlet UIImageView *setimg;
     NSURL *urlpath1,*urlpath2;
     AVAudioPlayer *play;
     NSString *strpath1;
-    NSString *str;
+    int changing,chang1;
+    
     
 }
+-(IBAction)Changealphtoword:(id)sender;
 -(IBAction)clickletters:(id)sender;
 -(IBAction)clickalphabets:(id)sender;
 -(IBAction)clickanimation:(id)sender;
-
-
 
 @end

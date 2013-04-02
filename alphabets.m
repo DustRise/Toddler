@@ -29,16 +29,17 @@
 	// Do any additional setup after loading the view.
     [self.navigationItem setTitle:@"Alphabets"];
     letter=0;
+    changing=0;
     animation.hidden=YES;
    
 }
 -(IBAction)clickalphabets:(id)sender;
 
 {
+           chang1=0;
     if(letter==0)
     {
-        
-        
+         chang1=0;
         [ltr setTitle:@"Capital"];
          [let1 setTitle:@"a" forState:normal];
          [let2 setTitle:@"b" forState:normal];
@@ -71,7 +72,10 @@
     }
     
     else if (letter==1)
-    { [ltr setTitle:@"Small"];
+        
+    {
+         chang1=0;
+        [ltr setTitle:@"Small"];
         [let1 setTitle:@"A" forState:normal];
         [let2 setTitle:@"B" forState:normal];
         [let3 setTitle:@"C" forState:normal];
@@ -112,6 +116,905 @@
 {
     animation.hidden=NO;
     NSLog(@"%@",[sender currentTitle]);
+    
+    if(chang1==1)
+    {
+        if([@"A"isEqual:[sender currentTitle]])
+        {
+            strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+            urlpath1=[NSURL fileURLWithPath:strpath1];
+            NSError *error;
+            play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+            [play prepareToPlay];
+            [play play];
+            //[animation setTitle:@"A" forState:normal];
+            setimg.image=[UIImage imageNamed:@"00.png"];
+            [UIView beginAnimations:nil context:nil];
+            [UIView setAnimationDuration:3.0];
+            setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+            setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+            [UIView commitAnimations];
+            
+            
+        }
+        else if ([@"B"isEqual:[sender currentTitle]])
+                 {
+                     strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                     urlpath1=[NSURL fileURLWithPath:strpath1];
+                     NSError *error;
+                     play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                     [play prepareToPlay];
+                     [play play];
+                     //[animation setTitle:@"A" forState:normal];
+                     setimg.image=[UIImage imageNamed:@"00.png"];
+                     [UIView beginAnimations:nil context:nil];
+                     [UIView setAnimationDuration:3.0];
+                     setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                     setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                     [UIView commitAnimations];
+                     
+                     
+                 }
+        else if ([@"C"isEqual:[sender currentTitle]])
+        {
+            strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+            urlpath1=[NSURL fileURLWithPath:strpath1];
+            NSError *error;
+            play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+            [play prepareToPlay];
+            [play play];
+            //[animation setTitle:@"A" forState:normal];
+            setimg.image=[UIImage imageNamed:@"00.png"];
+            [UIView beginAnimations:nil context:nil];
+            [UIView setAnimationDuration:3.0];
+            setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+            setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+            [UIView commitAnimations];
+            
+            
+        }
+        else if ([@"D"isEqual:[sender currentTitle]])
+        {
+            strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+            urlpath1=[NSURL fileURLWithPath:strpath1];
+            NSError *error;
+            play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+            [play prepareToPlay];
+            [play play];
+            //[animation setTitle:@"A" forState:normal];
+            setimg.image=[UIImage imageNamed:@"00.png"];
+            [UIView beginAnimations:nil context:nil];
+            [UIView setAnimationDuration:3.0];
+            setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+            setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+            [UIView commitAnimations];
+        }
+            else if ([@"E"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"F"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+    
+            else if ([@"G"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"H"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"I"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"J"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"K"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"L"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"M"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"N"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"O"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"P"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"Q"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"R"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"S"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"T"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"U"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"V"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"W"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"X"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"Y"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"Z"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+        
+            else  if([@"a"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+                
+            }
+            else if ([@"b"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+                
+            }
+            else if ([@"c"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+                
+            }
+            else if ([@"d"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+            }
+            else if ([@"e"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"f"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+        
+            else if ([@"g"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"h"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"i"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"j"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"k"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"l"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"m"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"n"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"o"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"p"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"q"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"r"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"s"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"t"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"u"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"v"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"w"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"x"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"y"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+            else if ([@"z"isEqual:[sender currentTitle]])
+            {
+                strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
+                urlpath1=[NSURL fileURLWithPath:strpath1];
+                NSError *error;
+                play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
+                [play prepareToPlay];
+                [play play];
+                //[animation setTitle:@"A" forState:normal];
+                setimg.image=[UIImage imageNamed:@"00.png"];
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration:3.0];
+                setimg.transform=CGAffineTransformMakeScale(2.2, 2.2);
+                setimg.transform=CGAffineTransformMakeScale(0.0001,0.0001);
+                [UIView commitAnimations];
+                
+            }
+
+    }
+
+    else if(chang1==0)
+    {
     
     if([@"A"isEqual:[sender currentTitle]])
 {
@@ -578,8 +1481,8 @@
             [UIView commitAnimations];
             
             
-            
         }
+        
     else if ([@"a"isEqual:[sender currentTitle]])
     {
         strpath1=[[NSBundle mainBundle]pathForResource:@"Alphabetics_0" ofType:@"mp3"];
@@ -1043,21 +1946,41 @@
         animation.transform=CGAffineTransformMakeScale(0.0001, 0.0001);
         [UIView commitAnimations];
     }
-    
-    
+    }
 
+}
+-(IBAction)Changealphtoword:(id)sender;
+{
+    if(changing==0)
+    {
+       // [self changeletters];
+        [alphtoword setTitle:@"Alphabets" forState:normal];
+        chang1=1;
+        
+        [self.navigationItem setTitle:@"Words"];
+        changing=1;
+        
 
+    }
+    else if (changing==1)
+    {
+        [alphtoword setTitle:@"Words" forState:normal];
+        chang1=0;
+        [self.navigationItem setTitle:@"Alphabets"];
+
+        changing=0;
+      // [self changewords];
+    }
 
 
 
 }
-
-
-
+    
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
+    
 @end
