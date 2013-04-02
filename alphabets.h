@@ -20,7 +20,8 @@
     AVAudioPlayer *play;
     NSString *strpath1;
     int changing,chang1;
-    
+
+    IBOutlet UIButton *btn;
     
 }
 -(IBAction)Changealphtoword:(id)sender;
